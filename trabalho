@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #topbox {
+            width: 400px;
+            height: 500px;
+            border: 5px;
+
+            border-radius: 20px;
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+        }
+
+        #ball {
+            width: 200px;
+            height: 200px;
+            border: 3px black solid;
+            border-radius: 50%;
+            background: url(https://i.pinimg.com/736x/70/cf/46/70cf464c699b85c6aab05f00996d2969.jpg);
+            background-position: center;
+            background-size: cover;
+            margin: auto;
+            box-shadow: 3px 8px 20px grey;
+
+
+
+        }
+
+        #font_h3 {
+            color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #font_h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: auto;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .boxbutton {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+
+        }
+
+        .boxbutton2 {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            margin-bottom: 20px;
+
+        }
+
+        .botão {
+            width: 150px;
+            height: 50px;
+            background-color: rgb(126, 126, 126);
+            border-radius: 8px;
+            color: aliceblue;
+            margin: auto;
+            align-content: center;
+            box-shadow: 3px 8px 20px grey;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 15px;
+
+
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+
+        .flex2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-direction: column;
+        }
+
+        .flex3 {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            flex-direction: column;
+        }
+
+        #verybottonbox4 {
+
+            width: 300px;
+            height: 520px;
+            background: rgb(98, 2, 2);
+            border-radius: 15px;
+            margin-top: 30px;
+            background-image: url(https://i.pinimg.com/236x/96/23/0b/96230bd6504f8961e38ed3d7cc1078b2.jpg);
+            background-position: center;
+            background-size: cover;
+            margin-left: 10px;
+
+
+
+
+        }
+
+        #verybottonbox2,
+        #verybottonbox3,
+        #verybottonbox,
+        #bottonbox {
+
+
+            background: rgb(98, 2, 2);
+            border-radius: 15px;
+            margin: 10px;
+            background-image: url(https://i.pinimg.com/236x/25/c5/fc/25c5fca31a9377f937e9071daebab81e.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #bottonbox {
+            width: 300px;
+            height: 300px;
+        }
+
+        #verybottonbox {
+            width: 300px;
+            height: 200px;
+        }
+
+        #verybottonbox2 {
+            width: 200px;
+            height: 300px;
+        }
+
+        #verybottonbox3 {
+            width: 200px;
+            height: 200px;
+        }
+
+        .link {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        /* 
+        .texto {
+            display: flex;
+            justify-content: center;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div id="topbox">
+        <div id="ball"></div>
+        <h1 id="font_h1">Isaac</h1>
+        <h3 id="font_h3">Beginner programmer</h3>
+        <div class="boxbutton2">
+
+            <div class="boxbutton">
+                <a href="https://github.com/" class="link">
+                    <div class="botão">
+
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50px" height="50px">
+                        <p class="texto">GitHub</p>
+
+                    </div>
+                </a>
+                <a href="https://www.tiktok.com" class="link">
+                    <div class="botão">
+                        <img src="https://i.pinimg.com/originals/d4/8d/60/d48d60b648c547f4603eafedb273e2d6.png"
+                            width="50px" height="50px">
+                        <p class="texto">TikTok</p>
+                    </div>
+            </div>
+        </div>
+        </a>
+
+        <a href="https://www.instagram.com/" class="link">
+            <div class="boxbutton2">
+                <div class="boxbutton2">
+                    <div class="botão">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+                            width="50px" height="50px">
+                        <p class="texto">Instagram</p>
+                    </div>
+        </a>
+        <a href="https://www.vsco.co/" class="link">
+
+            <div class="botão">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/VSCO_Seal.svg/1200px-VSCO_Seal.svg.png"
+                    width="50px" height="50px">
+
+                <p class="texto">VSCO</p>
+
+            </div>
+    </div>
+    </a>
+
+    </div>
+
+
+    </div>
+    <div class="flex">
+        <div class="flex2">
+            <div id="bottonbox"></div>
+            <div id="verybottonbox"></div>
+        </div>
+        <div class="flex3">
+            <div id="verybottonbox2"></div>
+            <div id="verybottonbox3"></div>
+        </div>
+        <div id="verybottonbox4"></div>
+    </div>
+</body>
+
+</html>
